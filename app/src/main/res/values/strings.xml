@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="select_your_role">Select Your Role</string>
+    <string name="user_type_description">Choose an option below to continue.</string>
+    <string name="donor_icon">Food Donor Icon</string>
+    <string name="recipient_icon">Food Recipient Icon</string>
+    <string name="food_donor">Food Donor</string>
+    <string name="donor_description">I want to donate excess food to those in need.</string>
+    <string name="food_recipient">Food Recipient</string>
+    <string name="recipient_description">I am in need of food donations.</string>
+    <string name="learn_more_about_the_app">Learn More About the App</string>
+    <string name="continue_text">Continue</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Food Redistribution App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Food types array -->
+    <string-array name="food_types">
+        <item>Fresh Produce</item>
+        <item>Bakery</item>
+        <item>Dairy</item>
+        <item>Canned Goods</item>
+        <item>Meat</item>
+        <item>Prepared Food</item>
+        <item>Other</item>
+    </string-array>
+</resources>
