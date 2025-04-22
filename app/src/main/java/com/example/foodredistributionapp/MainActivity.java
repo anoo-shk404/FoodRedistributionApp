@@ -10,9 +10,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//public class SplashScreenActivity extends AppCompatActivity {
 public class MainActivity extends AppCompatActivity {
-
 
     private static final int SPLASH_TIMEOUT = 3000; // 3 seconds
 
@@ -21,18 +19,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         ImageView logoImageView = findViewById(R.id.imageViewLogo);
         TextView appNameTextView = findViewById(R.id.textViewAppName);
 
 
         Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
-        Animation slideUp = AnimationUtils.loadAnimation(this, R.anim.slide_up);
+        Animation translateUp = AnimationUtils.loadAnimation(this, R.anim.translate_up);
 
 
-        logoImageView.startAnimation(fadeIn);
-        appNameTextView.startAnimation(slideUp);
-
+        logoImageView.startAnimation(translateUp);
+        appNameTextView.startAnimation(fadeIn);
 
         new Handler().postDelayed(() -> {
             Intent intent = new Intent(MainActivity.this, UserTypeSelectionActivity.class);

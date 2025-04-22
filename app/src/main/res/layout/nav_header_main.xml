@@ -9,21 +9,24 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/profile_placeholder" />
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="Navigation header"
+        android:src="@drawable/ic_profile" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="testuser"
+        android:text="Food Redistribution App"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="test@mail.com" />
+        android:text="Donor Portal" />
 
 </LinearLayout>

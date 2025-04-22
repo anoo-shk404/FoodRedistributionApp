@@ -13,13 +13,16 @@
         android:theme="@style/Theme.FoodRedistributionApp"
         tools:targetApi="31">
         <activity
-            android:name=".AddDonationActivity"
+            android:name=".donor.DonorListingsActivity"
             android:exported="false" />
         <activity
-            android:name=".RecipientDashboardActivity"
+            android:name=".donor.AddDonationActivity"
             android:exported="false" />
         <activity
-            android:name=".DonorDashboardActivity"
+            android:name=".recipient.RecipientDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".donor.DonorDashboardActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

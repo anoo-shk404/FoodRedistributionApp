@@ -1,4 +1,4 @@
-package com.example.foodredistributionapp;
+package com.example.foodredistributionapp.donor;
 
 public class Donation {
     private String title;

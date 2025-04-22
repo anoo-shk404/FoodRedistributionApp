@@ -1,9 +1,11 @@
-package com.example.foodredistributionapp;
+package com.example.foodredistributionapp.recipient;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.foodredistributionapp.R;
 
 public class RecipientDashboardActivity extends AppCompatActivity {
 
